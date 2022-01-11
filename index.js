@@ -4,7 +4,7 @@
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
-const { TOKEN, PREFIX, LOCALE } = require("./util/EvobotUtil");
+const { ODc1OTExNDE1MTAwMjMxNzQx.YRcaEw.BlOXLWtg1CBE8BpsqLp9DDMZ6bg, M!, LOCALE } = require("./util/EvobotUtil");
 const path = require("path");
 const i18n = require("i18n");
 
@@ -13,7 +13,7 @@ const client = new Client({
   restTimeOffset: 0
 });
 
-client.login(TOKEN);
+client.login(ODc1OTExNDE1MTAwMjMxNzQx.YRcaEw.BlOXLWtg1CBE8BpsqLp9DDMZ6bg);
 client.commands = new Collection();
 client.prefix = PREFIX;
 client.queue = new Map();
